@@ -1,0 +1,43 @@
+{
+  "student": {
+    "student_id": "2A202602853",
+    "split_seed": 8554,
+    "model_seed": 7588,
+    "v_ego": 14.0
+  },
+  "segment": 57,
+  "changed_frames": [
+    {
+      "frame": 98,
+      "gap_m": 4.3033,
+      "closing_m_s": 2.9189,
+      "ttc_s": 1.4742882592757547,
+      "golden_accel": -5.436313161944227,
+      "aeb_accel": -6.0
+    },
+    {
+      "frame": 99,
+      "gap_m": 4.0581,
+      "closing_m_s": 2.8313,
+      "ttc_s": 1.4332991911842614,
+      "golden_accel": -5.775099464480195,
+      "aeb_accel": -6.0
+    },
+    {
+      "frame": 100,
+      "gap_m": 3.8297,
+      "closing_m_s": 2.6761,
+      "ttc_s": 1.431075071933037,
+      "golden_accel": -5.9110399333612005,
+      "aeb_accel": -6.0
+    },
+    {
+      "frame": 101,
+      "gap_m": 3.6232,
+      "closing_m_s": 2.4324000000000003,
+      "ttc_s": 1.4895576385462916,
+      "golden_accel": -5.675861911370845,
+      "aeb_accel": -6.0
+    }
+  ]
+}
