@@ -1,0 +1,57 @@
+{
+  "student": {
+    "student_id": "2A202602853",
+    "split_seed": 8554,
+    "model_seed": 7588,
+    "v_ego": 14.0
+  },
+  "seeds": [
+    7588,
+    7589,
+    7590,
+    7591,
+    7592
+  ],
+  "quick": false,
+  "train_trajectories": 6727,
+  "test_trajectories": 2883,
+  "percmlp_plus_openloop_per_seed": [
+    {
+      "all": 0.8472761511802673,
+      "brake_slice": 0.975109875202179,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "all": 0.8177104592323303,
+      "brake_slice": 1.004544734954834,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "all": 0.8104621171951294,
+      "brake_slice": 0.977688193321228,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "all": 0.7939850091934204,
+      "brake_slice": 0.9768240451812744,
+      "slice_share": 0.04368620670422221
+    },
+    {
+      "all": 0.8052379488945007,
+      "brake_slice": 0.9965762495994568,
+      "slice_share": 0.04368620670422221
+    }
+  ],
+  "runtime": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.9",
+    "numpy": "2.3.5",
+    "pandas": "2.2.2",
+    "matplotlib": "3.10.8",
+    "device": "cpu",
+    "blas_threads": 1
+  },
+  "command": "python run_all.py --student-id 2A202602853",
+  "scope_check": "only bodies of the ten allowed TODO functions changed",
+  "additional_edge_checks": "padding mismatches broadcasting empty brake slice and Wilson boundaries passed with numerical tolerance 1e-15"
+}
